@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "310367238061",
+    "firebase_url": "https://kingpin-f1d2b.firebaseio.com",
+    "project_id": "kingpin-f1d2b",
+    "storage_bucket": "kingpin-f1d2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310367238061:android:af2da73d4d879342",
+        "android_client_info": {
+          "package_name": "com.defunkt.kingpin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310367238061-566i1kuea3vs3bmvmgmt2vt3mid4qf1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.defunkt.kingpin",
+            "certificate_hash": "9afdf223053ecfa43e32273ec11f7b2097916f01"
+          }
+        },
+        {
+          "client_id": "310367238061-u6jf80jsqckebh0jb924gipglvk3i3a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMAMABPvW20r-3luboX6pCe-0gqkdiBFs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310367238061-u6jf80jsqckebh0jb924gipglvk3i3a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

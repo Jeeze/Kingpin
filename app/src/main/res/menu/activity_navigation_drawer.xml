@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Personal Information">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_personal"
+                    android:icon="@drawable/ic_menu_personal"
+                    android:title="Personal Scores" />
+                <item
+                    android:id="@+id/nav_bio"
+                    android:icon="@drawable/ic_menu_bio"
+                    android:title="My Bio" />
+                <item
+                    android:id="@+id/nav_weekly_entries"
+                    android:icon="@drawable/ic_menu_weekly_entries"
+                    android:title="Weekly Entries" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="League Information">
+        <group>
+            <menu>
+                <item
+                    android:id="@+id/nav_standings"
+                    android:icon="@drawable/ic_menu_standings"
+                    android:title="Team Standings" />
+                <item
+                    android:id="@+id/nav_about_league"
+                    android:icon="@drawable/ic_menu_about_league"
+                    android:title="About League" />
+                <item
+                    android:id="@+id/nav_weekly_match"
+                    android:icon="@drawable/ic_menu_weekly_match"
+                    android:title="Weekly Matchups" />
+
+                <item
+                    android:id="@+id/nav_chat"
+                    android:icon="@drawable/ic_menu_chatroom"
+                    android:title="Chatroom" />
+            </menu>
+        </group>
+    </item>
+</menu>
